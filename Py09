@@ -1,0 +1,15 @@
+import math
+count=0
+avg=0
+cheeses=['Cheddar','Gouda','Tetilla','Curado','Quesillo','Burgos']
+numbers=[12,2,43,23,12,3,1,45,654,76,2243,3,9,48,70,328,96,410,93,51,39,84,59,318]
+numbers2=numbers
+matrix1=[[2,5,6],[4,5,7],[8,6,9]]
+slice0=numbers[5:]
+print(slice0)
+print(cheeses, numbers)
+cheeses[2]='Edam'
+print(cheeses)
+for i in range(len(numbers2)):
+  numbers2[i]=numbers2[i]*cos(i)
+  
